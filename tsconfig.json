@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "outDir": "dist",
+    "target": "ES2022",
+    "sourceMap": true
+  }
+}
