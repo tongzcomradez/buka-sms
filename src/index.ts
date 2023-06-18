@@ -11,11 +11,11 @@ export interface BukaConfig {
 }
 
 class BukaSMS {
-  private readonly appId: string = process.env.APP_ID || undefined
-  private readonly appSecret: string = process.env.APP_SECRET || undefined
-  private readonly apiKey: string = process.env.API_KEY || undefined
-  private readonly senderId: string = process.env.SENDER_ID || ''
-  private readonly baseUrl: string = process.env.BASE_URL || 'https://api.onbuka.com/v3/sendSms'
+  private readonly appId: string = process.env.BUKA_APP_ID || undefined
+  private readonly appSecret: string = process.env.BUKA_APP_SECRET || undefined
+  private readonly apiKey: string = process.env.BUKA_API_KEY || undefined
+  private readonly senderId: string = process.env.BUKA_SENDER_ID || ''
+  private readonly baseUrl: string = process.env.BUKA_BASE_URL || 'https://api.onbuka.com/v3/sendSms'
 
   private readonly MAXIMUM_NUMBERS_PER_REQUEST = 100
 
